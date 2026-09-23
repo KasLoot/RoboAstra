@@ -1,13 +1,17 @@
 [project]
 name = "roboastra"
 version = "0.1.0"
-description = "Add your description here"
+description = "Using VLM models for direct controlling robot manipulation."
 readme = "README.md"
 authors = [
     { name = "KasLoot", email = "steven.liu.yuxin@outlook.com" }
 ]
 requires-python = ">=3.13"
-dependencies = []
+dependencies = [
+    "langchain>=1.4.1",
+    "langchain-openai>=1.6.2",
+    "langgraph>=1.2.11",
+]
 
 [project.scripts]
 roboastra = "roboastra:main"

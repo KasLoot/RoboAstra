@@ -1,0 +1,5 @@
+RoboAstra:
+  host: "ollama"
+  base_url: "https://ollama.com/api"
+  model: "glm-5.3-flash:cloud"
+  reasoning: ""

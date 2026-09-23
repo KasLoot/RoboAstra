@@ -1,2 +1,4 @@
+from roboastra.roboastra import run
+
 def main() -> None:
-    print("Hello from roboastra!")
+    run()
